@@ -61,8 +61,7 @@ variable "cost_centre" {
 ########## S3 Variable ########3
 
 variable "bucket_name" {
-  description = "The AWS s3 bucket name."
-  type = string
+  type        = string
   default = "khatrigtesting123"
   }
 
