@@ -1,5 +1,5 @@
 locals {
-  environment  = "dev"
+  environment  = "stg"
  }
 
 ######### S3###############
