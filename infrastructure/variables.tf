@@ -101,5 +101,7 @@ variable "s3_restrict_public_buckets" {
   type        = bool
   default     = true
 }
-
+variable "tags" {
+  description = "tags"
+ }
 ##################3
