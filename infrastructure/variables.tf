@@ -62,6 +62,8 @@ variable "cost_centre" {
 
 variable "bucket_name" {
   description = "Bucket Name"
+  type = string
+  default = "dtpl-insigte-dev-khatrig-s3"
 }
 
 variable "s3_acl" {
