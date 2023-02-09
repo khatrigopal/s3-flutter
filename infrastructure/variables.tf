@@ -61,8 +61,7 @@ variable "cost_centre" {
 ########## S3 Variable ########3
 
 variable "bucket_name" {
-  type        = string
-  default =     "testing-dtpl-bucket"
+  description = "Bucket Name"
 }
 
 variable "s3_acl" {
