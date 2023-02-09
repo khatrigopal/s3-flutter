@@ -1,4 +1,4 @@
-######### S3##############
+######### S3###############
 module "s3" {
   source     = "../modules/s3"
   bucket_name  = "dtpl-insights-khatrig-s3"
