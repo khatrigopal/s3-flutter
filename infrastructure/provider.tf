@@ -19,3 +19,4 @@ provider "aws" {
       code_repo    = var.code_repo
     }
   }
+}
