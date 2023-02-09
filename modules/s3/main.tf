@@ -1,6 +1,6 @@
 #S3 Bucket on Which we will add policy
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket_name = var.bucket_name
+  bucket = var.bucket_name
   force_destroy = var.bucket_force_destroy
   tags              = var.tags
 }
