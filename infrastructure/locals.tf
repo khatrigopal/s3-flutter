@@ -1,5 +1,5 @@
 locals {
-  environment  = dev
+  environment  = "dev"
   #environment  = terraform.workspace
   
 }
