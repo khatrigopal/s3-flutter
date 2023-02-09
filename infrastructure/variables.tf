@@ -102,6 +102,7 @@ variable "s3_restrict_public_buckets" {
   default     = true
 }
 variable "tags" {
-  description = "tags"
- }
+  description = "A map of all tags created"
+  default     = ""
+}
 ##################3
