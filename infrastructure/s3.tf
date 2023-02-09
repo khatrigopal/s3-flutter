@@ -1,3 +1,7 @@
+locals {
+  environment  = "dev"
+ }
+
 ######### S3###############
 module "s3" {
   source     = "../modules/s3"
