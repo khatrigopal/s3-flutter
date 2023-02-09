@@ -62,7 +62,7 @@ variable "cost_centre" {
 
 variable "bucket_name" {
   type        = string
-  default = "khatrigtesting123"
+  default =     testing-dtpl-bucket
 }
 
 variable "s3_acl" {
