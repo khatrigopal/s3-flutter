@@ -63,7 +63,7 @@ variable "cost_centre" {
 variable "bucket_name" {
   type        = string
   default = "khatrigtesting123"
-  }
+}
 
 variable "s3_acl" {
   type        = string
