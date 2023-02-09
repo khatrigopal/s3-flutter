@@ -1,19 +1,19 @@
 #S3 Bucket on Which we will add policy
 resource "aws_s3_bucket" "s3_bucket" {
-  #bucket = var.bucket_name
+  bucket = var.bucket_name
   force_destroy = var.bucket_force_destroy
   tags              = var.tags
 }
 
 
 resource "aws_s3_bucket_versioning" "bucket_versioning" {
-  bucket = aws_s3_bucket.test-bucket.id
+  bucket = aws_s3_bucket.s3_bucket.id
   versioning_configuration {
     status = var.versioning
   }
 }
 resource "aws_s3_bucket_acl" "acl" {
-  bucket = aws_s3_bucket.test-bucket.id
+  bucket = aws_s3_bucket.s3_bucket.id
   acl    = var.acl
 }
 
