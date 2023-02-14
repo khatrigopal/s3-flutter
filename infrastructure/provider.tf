@@ -17,6 +17,7 @@ provider "aws" {
       environment = local.environment
       cost_centre  = var.cost_centre
       code_repo    = var.code_repo
+      
     }
   }
 }
