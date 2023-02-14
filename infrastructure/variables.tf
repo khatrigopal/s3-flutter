@@ -56,8 +56,11 @@ variable "cost_centre" {
   default     = "80716"
 }
 
-
-
+variable "test_name" {
+  description = "The name"
+  type        = string
+  default     = "khatrig"
+}
 ########## S3 Variable ########3
 
 variable "bucket_name" {
